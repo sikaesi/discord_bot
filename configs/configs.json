@@ -1,0 +1,12 @@
+{
+  "discord": {
+    "TOKEN": "discord bot token",
+    "COMMAND_PREFIX": "$",
+    "channel": {
+      "BOT_LOG": null,
+      "VOICE_LOG": null,
+      "DELETE_MESSAGE_LOG": null,
+      "BACKGROUND_TASK": null
+    }
+  }
+}
