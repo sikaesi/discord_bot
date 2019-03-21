@@ -2,7 +2,6 @@ from discord.ext import commands
 from configs import configs
 import cogs.common
 import cogs.voice
-import cogs.angel
 import asyncio
 import random
 
@@ -15,7 +14,6 @@ class Main(commands.Bot):
         super().__init__(command_prefix)
         cogs.common.setup(self, configs)
         cogs.voice.setup(self, configs)
-        cogs.angel.setup(self)
         # create the background task and run it in the background
         self.bg_task = self.loop.create_task(self.background_task())
 
